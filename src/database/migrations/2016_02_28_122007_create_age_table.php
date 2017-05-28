@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateTableAge extends Migration
+class CreateAgeTable extends Migration
 {
     /**
      * Run the migrations.

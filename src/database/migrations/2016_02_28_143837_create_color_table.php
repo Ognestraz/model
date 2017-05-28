@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateTableColor extends Migration
+class CreateColorTable extends Migration
 {
     /**
      * Run the migrations.
