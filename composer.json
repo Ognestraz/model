@@ -1,0 +1,24 @@
+{
+    "name": "ognestraz/model",
+    "description": "The Models for Laravel Framework.",
+    "keywords": ["framework", "laravel", "lumen"],
+    "authors": [
+        {
+            "name": "ognestraz",
+            "email": "ognestraz@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Model\\": "src/model/",
+            "Ognestraz\\Model\\": "src/app/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}
